@@ -1,6 +1,18 @@
+/**
+ * Zak Sakata
+ * CSE360 Assignment 3
+ * SimplePlot is the concrete component of Drawable and acts as the base of all attached decorators
+ * Graphs simple line plots
+ */
+
 import java.awt.*;
 
 public class SimplePlot extends Drawable {
+    /**
+     * Draws simple line plot of all values
+     *
+     * @param Graphics containing the graph
+     */
     @Override
     public void draw(Graphics g) {
         int oldValue = 0;

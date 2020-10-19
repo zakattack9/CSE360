@@ -1,3 +1,10 @@
+/**
+ * Zak Sakata
+ * CSE360 Assignment 3
+ * This file includes driver code to run and initialize the program
+ * World sets up the Swing GUI and holds all created graphs and buttons
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -6,6 +13,7 @@ import java.awt.event.ActionListener;
 public class World extends JFrame implements ActionListener {
     Source source;
 
+    /* World constructor */
     public World() {
         SimplePlot simplePlot = new SimplePlot();
         MarkedPlot markedPlot = new MarkedPlot();
@@ -56,6 +64,11 @@ public class World extends JFrame implements ActionListener {
         add(addBtn, gridBagConstraints);
     }
 
+    /**
+     * Creates a new value in the Observable when triggered by an attached action
+     *
+     * @param event of the action that occurred
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
         this.source.create();
@@ -64,7 +77,7 @@ public class World extends JFrame implements ActionListener {
     public static void main(String[] args) {
         World world = new World();
         world.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        world.setSize(500,835);
+        world.setSize(500,832);
         world.setVisible(true);
     }
 }
