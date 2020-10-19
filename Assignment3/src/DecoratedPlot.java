@@ -7,10 +7,10 @@ public abstract class DecoratedPlot extends Drawable {
         drawable = d;
     }
 
-    @Override
-    public void setValue(int v) {
-        drawable.setValue(v);
-    }
+//    @Override
+//    public void setValue(int v) {
+//        drawable.setValue(v);
+//    }
 
     @Override
     public void draw(Graphics g) {

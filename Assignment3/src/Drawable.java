@@ -7,6 +7,7 @@ public abstract class Drawable {
     public void setValue(int v) {
         if (values.size() == 20) values.removeFirst();
         values.add(v);
+        System.out.println("VALUE: " + v);
     }
 
     public void draw(Graphics g) {}
