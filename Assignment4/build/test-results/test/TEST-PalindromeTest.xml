@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PalindromeTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-02T06:11:30" hostname="Zaks-MacBook-Pro-2.local" time="0.026">
+  <properties/>
+  <testcase name="testWordPalindrome()" classname="PalindromeTest" time="0.015"/>
+  <testcase name="testNonPalindome()" classname="PalindromeTest" time="0.001"/>
+  <testcase name="testIgnoreSpacesPunctuationPalindrome()" classname="PalindromeTest" time="0.001"/>
+  <testcase name="testPhrasePalindrome()" classname="PalindromeTest" time="0.001"/>
+  <testcase name="testIgnoreCasePalindrome()" classname="PalindromeTest" time="0.001"/>
+  <testcase name="testNumericPalindrome()" classname="PalindromeTest" time="0.001"/>
+  <testcase name="testNonAlphanumericPalindrome()" classname="PalindromeTest" time="0.001"/>
+  <testcase name="testEmptyPlaindrome()" classname="PalindromeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
